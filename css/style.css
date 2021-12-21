@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#login {
+    content: '';
+    width: 862px;
+    height: 900px;
+    background-image: url('/imgs/airplane-img.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.login-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-box {
+    padding-top: 31px;
+    margin-right: 87px;
+    
+}
+.logo-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    width: 100px;
+    margin-left: 82px;
+}
+
+.play-img {
+   margin: 410px 319px;
+   background-color: #fff;
+   border-radius: 50%;
+}
+
+.sign {
+    padding: 132px;
+}
+
+.sign-title {
+    width: 99px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 45px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.sign-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 308px;
+    margin-bottom: 6px;
+}
+.sign-txt {
+    color: #fff;
+    margin-bottom: 52px;
+}
+
+.reg-link {
+    color: purple;
+    text-decoration: none;
+}
+
+.email-box {
+    margin-bottom: 50px;
+}
+
+.label-email {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.input-email {
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 430px;
+}
+
+.input::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url('/imgs/message-icon.svg');
+    background-repeat: no-repeat;
+}
+
+.password-box {
+    margin-bottom: 17px;
+}
+
+.label-password {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.input-password {
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 430px;
+}
+
+.input::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url('/imgs/padlock.svg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.input-password::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url('/imgs/glass.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    left: 230px;
+}
+
+.check {
+    margin-bottom: 60px;
+}
+
+.label-check {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    width: 90px;
+}
+
+.link-checkbox {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 206px;
+}
+
+.name-box {
+    margin-bottom: 50px;
+}
+
+.label-name {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.input-name {
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 430px;
+}
+
+.input::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url('/imgs/message-icon.svg');
+    background-repeat: no-repeat;
+}
+
+.confirum-box {
+    margin-bottom: 56px;
+}
+
+.label-confirum {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.input-confirum {
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 430px;
+}
+
+.input::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url('/imgs/padlock.svg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.login-link {
+    text-decoration: none;
+    background: #c10c99;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    padding: 14px 192px;
+    color: #fff;
+    margin-bottom: 39px;
+    display: inline-block;
+}
+
+.continue {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 130px;
+    color: #b5b5b5;
+    margin-left: 150px;
+    margin-bottom: 31px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item {
+    margin-left: 23px;
+}
+
