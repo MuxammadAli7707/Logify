@@ -85,24 +85,34 @@ body {
 
 .label-email {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 11px;
 }
 
-.label-email::after {
+.input-box::before {
     content: '';
     width: 17px;
     height: 17px;
     background-image: url('/imgs/message-icon.svg');
     position: relative;
     background-repeat: no-repeat;
+    margin-right: 11px;
+}
+
+.input-box {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 7px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
 }
 
 .input-email {
+    background-color: transparent;
+    color: #fff;
     border: none;
-    border-bottom: 2px solid #000;
-    width: 430px;
+    outline: none;
 }
 
 .password-box {
@@ -111,49 +121,56 @@ body {
 
 .label-password {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 11px;
 }
 
-.label-password::before {
+.pass-box::before {
     content: '';
     width: 17px;
     height: 17px;
     background-image: url('/imgs/padlock.svg');
     position: relative;
     background-repeat: no-repeat;
+    margin-right: 11px;
 }
 
-.label-password::after {
-    content: '';
-    width: 17px;
-    height: 17px;
-    background-image: url('/imgs/glass.svg');
-    position: relative;
-    background-repeat: no-repeat;
-    left: 410px;
-}
-
-.input-password {
+.pass-box {
+    background-color: transparent;
     border: none;
     border-bottom: 2px solid #fff;
+    padding-bottom: 7px;
     width: 430px;
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
 }
 
-.input-password::after {
+.pass-box::after {
     content: '';
     width: 14px;
     height: 14px;
     display: inline-block;
     background-image: url('/imgs/glass.svg');
     background-repeat: no-repeat;
-    position: relative;
-    left: 230px;
+    margin-left: auto;
+}
+
+.input-password {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
 }
 
 .check {
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    display: flex;
+    align-items: center;
 }
 
 .label-check {
@@ -162,12 +179,13 @@ body {
     line-height: 18px;
     color: #fff;
     width: 90px;
+    margin-left: 10px;
 }
 
 .link-checkbox {
     text-decoration: none;
     color: #fff;
-    margin-left: 206px;
+    display: inline-block;
 }
 
 .name-box {
