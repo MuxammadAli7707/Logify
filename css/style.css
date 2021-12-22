@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .play-img {
-   margin: 410px 319px;
+   margin: 410px 380px;
    background-color: #fff;
    border-radius: 50%;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .password-box {
-    margin-bottom: 17px;
+    margin-bottom: 34px;
 }
 
 .label-password {
@@ -194,61 +194,34 @@ body {
 
 .label-name {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 11px;
 }
 
-.input-name {
-    border: none;
-    border-bottom: 2px solid #fff;
-    width: 430px;
-}
-
-.label-name::before {
+.user-box::before {
     content: '';
     width: 17px;
     height: 17px;
     background-image: url('/imgs/user-icon.svg');
     position: relative;
     background-repeat: no-repeat;
+    margin-right: 11px;
 }
 
-
-.confirum-box {
-    margin-bottom: 56px;
-}
-
-.label-confirum {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 11px;
-}
-
-.input-confirum {
+.user-box {
+    background-color: transparent;
     border: none;
     border-bottom: 2px solid #fff;
+    padding-bottom: 7px;
     width: 430px;
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
 }
 
-.label-confirum::before {
-    content: '';
-    width: 17px;
-    height: 17px;
-    background-image: url('/imgs/padlock.svg');
-    position: relative;
-    background-repeat: no-repeat;
-}
-
-.label-confirum::after {
-    content: '';
-    width: 17px;
-    height: 17px;
-    background-image: url('/imgs/glass.svg');
-    position: relative;
-    background-repeat: no-repeat;
-    left: 410px;
+.input-name {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
 }
 
 .login-link {
