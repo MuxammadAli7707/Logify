@@ -90,19 +90,19 @@ body {
     margin-bottom: 11px;
 }
 
-.input-email {
-    border: none;
-    border-bottom: 2px solid #fff;
-    width: 430px;
-}
-
-.input::before {
+.label-email::after {
     content: '';
     width: 17px;
     height: 17px;
-    display: inline-block;
     background-image: url('/imgs/message-icon.svg');
+    position: relative;
     background-repeat: no-repeat;
+}
+
+.input-email {
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 430px;
 }
 
 .password-box {
@@ -116,20 +116,29 @@ body {
     margin-bottom: 11px;
 }
 
+.label-password::before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-image: url('/imgs/padlock.svg');
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.label-password::after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-image: url('/imgs/glass.svg');
+    position: relative;
+    background-repeat: no-repeat;
+    left: 410px;
+}
+
 .input-password {
     border: none;
     border-bottom: 2px solid #fff;
     width: 430px;
-}
-
-.input::before {
-    content: '';
-    width: 17px;
-    height: 17px;
-    display: inline-block;
-    background-image: url('/imgs/padlock.svg');
-    background-repeat: no-repeat;
-    position: relative;
 }
 
 .input-password::after {
@@ -178,14 +187,15 @@ body {
     width: 430px;
 }
 
-.input::before {
+.label-name::before {
     content: '';
     width: 17px;
     height: 17px;
-    display: inline-block;
-    background-image: url('/imgs/message-icon.svg');
+    background-image: url('/imgs/user-icon.svg');
+    position: relative;
     background-repeat: no-repeat;
 }
+
 
 .confirum-box {
     margin-bottom: 56px;
@@ -204,14 +214,23 @@ body {
     width: 430px;
 }
 
-.input::before {
+.label-confirum::before {
     content: '';
     width: 17px;
     height: 17px;
-    display: inline-block;
     background-image: url('/imgs/padlock.svg');
-    background-repeat: no-repeat;
     position: relative;
+    background-repeat: no-repeat;
+}
+
+.label-confirum::after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-image: url('/imgs/glass.svg');
+    position: relative;
+    background-repeat: no-repeat;
+    left: 410px;
 }
 
 .login-link {
