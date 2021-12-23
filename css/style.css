@@ -11,16 +11,15 @@ body {
 }
 
 .container {
-    width: 1110px;
+    width: 1250px;
     margin: 0 auto;
+    padding: 0;
 }
 
 #login {
-    content: '';
-    width: 862px;
-    height: 900px;
     background-image: url('/imgs/airplane-img.png');
     background-repeat: no-repeat;
+    background-size: 750px;
     position: relative;
 }
 
@@ -44,13 +43,14 @@ body {
 }
 
 .play-img {
-   margin: 410px 380px;
    background-color: #fff;
    border-radius: 50%;
+   margin-left: 330px;
+   margin-top: 380px;
 }
 
 .sign {
-    padding: 132px;
+    padding: 132px 40px;
 }
 
 .sign-title {
